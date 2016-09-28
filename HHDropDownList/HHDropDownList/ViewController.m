@@ -166,8 +166,10 @@
 
 - (void)action_3:(UIButton *)btn {
     
-    NSArray *array_1 = @[@"iMac", @"MacBook Air", @"MacBook Pro", @"Mac mini", @"newMacBook", @"Mac Pro"];
-    NSArray *array_2 = @[@"一年级", @"二年级", @"三年级", @"四年级", @"五年级", @"六年级"];
+    [self.dropDownList_1 pullBack];
+    
+    NSArray *array_1 = @[@"MacBook Air", @"MacBook Pro", @"newMacBook", @"Mac Pro"];
+    NSArray *array_2 = @[@"iPhone SE", @"iPhone 6", @"iPhone 6S", @"iPhone 7"];
     
     _swayBool = !_swayBool;
     

@@ -66,7 +66,7 @@
     
     
     _tableView = [self createTableViewAtPosition:CGPointMake(0, self.frame.origin.y+self.frame.size.height)];
-    [_tableView setBackgroundColor:[UIColor lightGrayColor]];
+    [_tableView setBackgroundColor:[UIColor whiteColor]];
     [_tableView.layer setBorderWidth:0.7];
     [_tableView.layer setBorderColor:[UIColor colorWithRed:209/255.0 green:209/255.0 blue:209/255.0 alpha:1.0].CGColor];
     [_tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
@@ -298,7 +298,7 @@
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 6;
+    return [_data count];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
