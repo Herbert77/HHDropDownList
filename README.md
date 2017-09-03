@@ -1,20 +1,20 @@
 # HHDropDownList
 A list of options with a sliding effect.
-####Demonstrate
+
+#### Demonstrate
 ![image](HHDropDownListDemoGif.gif) 
-####Screenshot
+
+#### Screenshot
 ![image2](HHDropDownListDemoShot.png)
-Installation
------------
-		
-###Manual
+
+## Installation
+### Manual
 Adding `HHDropDownList.h` and `HHDropDownList.m` to your project will be all right.
-How To Use
------------
+## How To Use
+
 The Demo will gives you a full understanding of how to apply this UI framework in the project.
 
-License
--------
+## License
 
 The MIT License (MIT)
 
