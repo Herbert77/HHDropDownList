@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191565241FA85A7500C3F54B /* HHDropDownListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 191565231FA85A7500C3F54B /* HHDropDownListUITests.m */; };
 		E53F69891D6458FA003984A3 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53F69871D6458FA003984A3 /* ListCell.m */; };
 		E53F698A1D6458FA003984A3 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53F69881D6458FA003984A3 /* ListCell.xib */; };
 		E5D935AB1D52E30D00004706 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D935AA1D52E30D00004706 /* main.m */; };
@@ -18,7 +19,20 @@
 		E5D935C21D52E3AB00004706 /* HHDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D935C11D52E3AB00004706 /* HHDropDownList.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		191565261FA85A7500C3F54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5D9359E1D52E30D00004706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D935A51D52E30D00004706;
+			remoteInfo = HHDropDownList;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		191565211FA85A7500C3F54B /* HHDropDownListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHDropDownListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		191565231FA85A7500C3F54B /* HHDropDownListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDropDownListUITests.m; sourceTree = "<group>"; };
+		191565251FA85A7500C3F54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53F69861D6458FA003984A3 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
 		E53F69871D6458FA003984A3 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		E53F69881D6458FA003984A3 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
@@ -37,6 +51,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1915651E1FA85A7500C3F54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5D935A31D52E30D00004706 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +68,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		191565221FA85A7500C3F54B /* HHDropDownListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				191565231FA85A7500C3F54B /* HHDropDownListUITests.m */,
+				191565251FA85A7500C3F54B /* Info.plist */,
+			);
+			path = HHDropDownListUITests;
+			sourceTree = "<group>";
+		};
 		E5D9359D1D52E30D00004706 = {
 			isa = PBXGroup;
 			children = (
 				E5D935A81D52E30D00004706 /* HHDropDownList */,
+				191565221FA85A7500C3F54B /* HHDropDownListUITests */,
 				E5D935A71D52E30D00004706 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				E5D935A61D52E30D00004706 /* HHDropDownList.app */,
+				191565211FA85A7500C3F54B /* HHDropDownListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +127,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		191565201FA85A7500C3F54B /* HHDropDownListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1915652A1FA85A7500C3F54B /* Build configuration list for PBXNativeTarget "HHDropDownListUITests" */;
+			buildPhases = (
+				1915651D1FA85A7500C3F54B /* Sources */,
+				1915651E1FA85A7500C3F54B /* Frameworks */,
+				1915651F1FA85A7500C3F54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191565271FA85A7500C3F54B /* PBXTargetDependency */,
+			);
+			name = HHDropDownListUITests;
+			productName = HHDropDownListUITests;
+			productReference = 191565211FA85A7500C3F54B /* HHDropDownListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		E5D935A51D52E30D00004706 /* HHDropDownList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5D935BD1D52E30D00004706 /* Build configuration list for PBXNativeTarget "HHDropDownList" */;
@@ -121,8 +171,14 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Herbert Hu";
 				TargetAttributes = {
+					191565201FA85A7500C3F54B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5D935A51D52E30D00004706;
+					};
 					E5D935A51D52E30D00004706 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HG2J8Z23E3;
 					};
 				};
 			};
@@ -140,11 +196,19 @@
 			projectRoot = "";
 			targets = (
 				E5D935A51D52E30D00004706 /* HHDropDownList */,
+				191565201FA85A7500C3F54B /* HHDropDownListUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1915651F1FA85A7500C3F54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5D935A41D52E30D00004706 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +223,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1915651D1FA85A7500C3F54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191565241FA85A7500C3F54B /* HHDropDownListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5D935A21D52E30D00004706 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,6 +244,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		191565271FA85A7500C3F54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5D935A51D52E30D00004706 /* HHDropDownList */;
+			targetProxy = 191565261FA85A7500C3F54B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E5D935B21D52E30D00004706 /* Main.storyboard */ = {
@@ -193,6 +273,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		191565281FA85A7500C3F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = HHDropDownListUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewThread.HHDropDownListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HHDropDownList;
+			};
+			name = Debug;
+		};
+		191565291FA85A7500C3F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = HHDropDownListUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewThread.HHDropDownListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HHDropDownList;
+			};
+			name = Release;
+		};
 		E5D935BB1D52E30D00004706 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -279,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HG2J8Z23E3;
 				INFOPLIST_FILE = HHDropDownList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NewThread.HHDropDownList;
@@ -290,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HG2J8Z23E3;
 				INFOPLIST_FILE = HHDropDownList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NewThread.HHDropDownList;
@@ -300,6 +438,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1915652A1FA85A7500C3F54B /* Build configuration list for PBXNativeTarget "HHDropDownListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191565281FA85A7500C3F54B /* Debug */,
+				191565291FA85A7500C3F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E5D935A11D52E30D00004706 /* Build configuration list for PBXProject "HHDropDownList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
